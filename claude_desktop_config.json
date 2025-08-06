@@ -1,1 +1,31 @@
-
+{
+  "mcpServers": {
+    "HARIPRIYA_SQL2025": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["C:\\Users\\harip\\SQL-AI-samples\\MssqlMcp\\Node\\dist\\index.js"],
+      "env": {
+        "SERVER_NAME": "HARIPRIYA",
+        "DATABASE_NAME": "DBATEST",
+        "READONLY": "false",
+        "MSSQL_AUTHENTICATION": "SQLPassword",
+        "MSSQL_USERNAME": "username"
+        "MSSQL_PASSWORD": "password"
+      }
+    },
+    "HARIPRIYA_SQL2022": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["C:\\Users\\harip\\SQL-AI-samples\\MssqlMcp\\Node\\dist\\index.js"],
+      "env": {
+        "SERVER_NAME": "HARIPRIYA",
+        "DATABASE_NAME": "DBATEST",
+        "READONLY": "false",
+        "MSSQL_AUTHENTICATION": "SQLPassword",
+        "MSSQL_USERNAME": "username",
+        "MSSQL_PASSWORD": "password",
+        "PORT": "14330"
+      }
+    }
+  }
+}
