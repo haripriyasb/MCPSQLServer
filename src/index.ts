@@ -11,6 +11,8 @@ import {
 } from "@modelcontextprotocol/sdk/types.js";
 
 // Internal imports - Explicitly adding .js extensions for Node.js ESM compatibility
+// 14 tools from https://github.com/oflindall/MSSQLMCP_DBA/tree/main/Node//
+
 import { UpdateDataTool } from "./tools/UpdateDataTool.js";
 import { InsertDataTool } from "./tools/InsertDataTool.js";
 import { ReadDataTool } from "./tools/ReadDataTool.js";
